@@ -8,7 +8,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
 # Desktop leve (XFCE) + VNC + noVNC (web) + extras
 RUN apt-get update && apt-get install -y --no-install-recommends \
         xfce4 xfce4-terminal xfce4-whiskermenu-plugin xfce4-taskmanager \
-        tigervnc-standalone-server novnc websockify \
+        tigervnc-standalone-server tigervnc-common tigervnc-tools novnc websockify \
         firefox-esr xterm \
         dbus-x11 dbus-user-session xdg-utils x11-xserver-utils \
         adwaita-icon-theme hicolor-icon-theme tango-icon-theme \
