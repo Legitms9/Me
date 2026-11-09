@@ -20,7 +20,7 @@ escola** e em outros dispositivos.
 - [ ] Extrair o projeto do zip e re-enviar **somente a pasta do projeto** (sem caches)
       para o Drive → o agente lê os textos pelo conector e monta o repo.
 - [ ] Definir Dockerfile/compose definitivo + `render.yaml`.
-- [x] Desktop web pronto e hospedável (Dockerfile: XFCE + noVNC) — veja `docs/RAILWAY.md` e opte por Railway (conectado) ou Render.
+- [x] Desktop web pronto e hospedável (Dockerfile: XFCE + Epiphany + noVNC, enxuto para 1 GB RAM) — veja `docs/RAILWAY.md` e opte por Railway (conectado) ou Render.
 - [ ] Deploy no Railway/Render (o usuário conecta a conta GitHub↔provedor).
 - [ ] Tornar o repositório **PRIVADO** no GitHub (Settings → Danger Zone → Change visibility).
       O token do agente não tem permissão de admin para fazer isso.
