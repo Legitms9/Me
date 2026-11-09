@@ -1,0 +1,15 @@
+{
+  "name": "Linux Desktop (noVNC)",
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": ".."
+  },
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": {
+      "label": "Desktop Linux (noVNC)",
+      "onAutoForward": "notify"
+    }
+  },
+  "postStartCommand": "nohup /entrypoint.sh > /tmp/desktop.log 2>&1 &"
+}
