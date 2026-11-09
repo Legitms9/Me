@@ -10,6 +10,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         xfce4 xfce4-terminal xfce4-whiskermenu-plugin xfce4-taskmanager \
         tigervnc-standalone-server novnc websockify \
         firefox-esr xterm \
+        dbus-x11 dbus-user-session xdg-utils x11-xserver-utils \
+        adwaita-icon-theme hicolor-icon-theme tango-icon-theme \
         git curl wget ca-certificates sudo procps net-tools unzip bzip2 \
         fonts-dejavu fonts-liberation \
     && rm -rf /var/lib/apt/lists/* \
