@@ -1,0 +1,51 @@
+# === Secrets & credenciais — NUNCA commitar ===
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+*.token
+secrets*
+credentials*
+
+# === Binários e mídia grande (ficam no Drive) ===
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.tar.gz
+*.iso
+*.img
+*.apk
+*.xapk
+*.exe
+*.msi
+*.bin
+*.elf
+*.dmg
+
+# === Caches / dependências (não entram no git) ===
+node_modules/
+.cache/
+cache/
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+build/
+.next/
+.turbo/
+.parcel-cache/
+
+# === Dados de usuário / perfis de navegador ===
+*.config/
+google-chrome/
+chromium*/
+
+# === SO ===
+.DS_Store
+Thumbs.db
